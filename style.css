@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('foto/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+
+/* Center tulisan WORLDWALL */
+.content_global {
+    margin-top: 5rem;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+p {
+    margin-top: 0%;
+    font-size: small;
+}
+.headder {
+    text-align: center;        /* center secara horizontal */
+    display: flex;             /* aktifkan flex */
+    justify-content: center;   /* center horizontal untuk flex */
+    align-items: center;       /* center vertical untuk flex */
+}
+.content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+button {
+    padding: 1em;
+    background-color: azure;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+    width: 200px;
+}
+
+button:hover {
+    background-color: mediumslateblue;
+    transform: translateY(-3px);    
+}
+
+
+.glow {
+    color: #2a2933; /* ungu tua mirip hover */
+    animation: glowAnim 1.5s infinite alternate;
+}
+
+@keyframes glowAnim {
+    from {
+        text-shadow: 0 0 5px #7B68EE,
+                     0 0 10px #7B68EE,
+                     0 0 20px #7B68EE;
+    }
+    to {
+        text-shadow: 0 0 15px #7B68EE,
+                     0 0 30px #7B68EE,
+                     0 0 45px #7B68EE;
+    }
+}
+

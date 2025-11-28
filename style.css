@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('foto/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,6 +71,7 @@ button:hover {
 @media (max-width: 600px) {
 
     body {
+        margin-top: 5em;
         background-size: cover;     /* biar gambar nge-full */
         background-position: center;
     }

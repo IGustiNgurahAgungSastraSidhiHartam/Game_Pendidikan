@@ -68,3 +68,37 @@ button:hover {
     }
 }
 
+/* RESPONSIVE MODE (HP) */
+@media (max-width: 600px) {
+
+    body {
+        background-size: cover;     /* biar gambar nge-full */
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 32px;            /* kecilkan judul */
+    }
+
+    p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .content_global {
+        margin-top: 2rem;
+    }
+
+    button {
+        width: 150px;               /* lebih kecil di HP */
+        padding: 0.8em;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;     /* tombol jadi ke bawah */
+        gap: 10px;
+        align-items: center;
+    }
+}
+
